@@ -13,7 +13,7 @@ Lightweight and fast performance
 HTML
 CSS
 JavaScript
-Weather API (e.g., OpenWeatherMap)
+Weather API (OpenWeatherMap)
 
 ## How It Works
 The user enters a city name
