@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="weather-card">
+
+            <div class="search-box">
+                <input type="text" id="cityInput" placeholder="Enter city">
+                <button id="searchBtn">🔍</button>
+            </div>
+
+            <div class="error" id="error">
+                City not found
+            </div>
+
+            <img id="weatherIcon" class="weather-icon">
+
+            <h1 id="temperature">--°C</h1>
+
+            <h2 id="cityName">Search a city</h2>
+
+            <p id="description">Weather information will appear here</p>
+
+            <div class="details">
+
+                <div class="detail-box">
+                    <h3>Humidity</h3>
+                    <p id="humidity">--%</p>
+                </div>
+
+                <div class="detail-box">
+                    <h3>Wind</h3>
+                    <p id="wind">-- km/h</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
